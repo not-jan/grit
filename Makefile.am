@@ -3,7 +3,7 @@ ACLOCAL_AMFLAGS = -I m4
 
 bin_PROGRAMS = grit
 
-noinst_LTLIBRARIES      = libcldib.la libgrit.la
+lib_LTLIBRARIES      = libcldib.la libgrit.la
 
 libcldib_la_SOURCES	= cldib/cldib_adjust.cpp cldib/cldib_conv.cpp cldib/cldib_core.cpp \
 			cldib/cldib_tmap.cpp cldib/cldib_tools.cpp cldib/cldib_wu.cpp \
